@@ -4,10 +4,22 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/styles.css" />
-    <title>DaniyiLAurora</title>
+    <link rel="stylesheet" href="src/styles.css"/>
+    <title>DaniyilAurora</title>
   </head>
   <body>
-    <h1 class="title">DaniyilAurora</h1>
+    <header>
+      <p id="logo">DaniyilAurora</p>
+      <nav>
+        <ul id="nav-links">
+          <li><a onclick="scrollHome()">Home</a></li>
+          <li><a onclick="scrollProjects()">Projects</a></li>
+          <li><a onclick="scrollAbout()">About</a></li>
+        </ul>
+      </nav>
+      <a onclick="scrollContact()" id="contact-button"><button>Contact</button></a>
+    </header>
+
+    <script src="dist/scroll.js"></script>
   </body>
 </html>
